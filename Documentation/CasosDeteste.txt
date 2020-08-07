@@ -1,0 +1,32 @@
+Entrar no sistema
+    Dado quando acesso o endereço "https://www.sodexobeneficios.com.br/index.htm"
+    E desejo acessar minha conta como usuário
+    Quando submeto o meu CPF "09881036640" 
+    E submeto minha senha "Wiaraujo8702"
+    Então devo ser autenticado
+
+Visualizar Saldo
+    Dado quando acesso o endereço "https://www.sodexobeneficios.com.br/index.htm"
+    E desejo "consultar Saldo do Cartão"
+    Quando submeto o meu CPF "09881036640" 
+    E submeto minha senha "Wiaraujo8702"
+    Então devo escolher meu cartão com o "final 4013"
+    E ao consultar devo vizualizar meu saldo
+
+Visualizar Ultima Compra
+    Dado quando acesso o endereço "https://www.sodexobeneficios.com.br/index.htm"
+    E desejo "consultar Saldo do Cartão"
+    Quando submeto o meu CPF "09881036640" 
+    E submeto minha senha "Wiaraujo8702"
+    Então devo escolher meu cartão com o "final 4013"
+    E ao consultar devo vizualizar minhas últimas compras nos últimos sete dias
+
+Visualizar restaurante com desconto
+    Dado quando estou logado e na pagina inicial do sodexo club "https://www.sodexobeneficios.com.br/sodexo-club/"
+    Quando desejo visualizar todas as promoções 
+    E submeto meu estado "MG"
+    cidade "Belo Horizonte"
+    bairro "Castelo"
+    Então devo visualizar os restaurantes com promoção para usuários do Sodexo
+
+ 
